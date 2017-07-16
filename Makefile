@@ -1,15 +1,9 @@
 LIVERELOAD=./node_modules/.bin/livereloadx
-PHP=$(shell which php)
 NPM=$(shell which npm)
 
 install:
 	    $(NPM) install
 
-watch-sass:
-	    $(SASS) css/main.scss --output css/ --watch
+run/server:
+		$(LIVERELOAD) -s -p 5000 ./
 
-server:
-		$(PHP) -S localhost:3000 -t ./
-
-livereload:
-	    $(LIVERELOAD) .
