@@ -14,9 +14,15 @@ body {
     /* 背景画像が読み込まれる前に表示される背景のカラー */
     background-color: #464646;
 }
+
+
 @media only screen and (min-width: 980px) {
     body {
         background-image: url(/assets/img/bg.jpg);
+    }
+
+    .glyphicon {
+        font-size:100px;
     }
 }
 
@@ -24,4 +30,12 @@ body {
     body {
         background-image: url(/assets/img/bg_sp.jpg);
     }
+    .glyphicon {
+        font-size:50px;
+    }
+}
+
+#content {
+    margin-top:50px;
+
 }
