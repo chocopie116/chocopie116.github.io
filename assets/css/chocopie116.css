@@ -21,7 +21,7 @@ body {
         background-image: url(/assets/img/bg.jpg);
     }
     .glyphicon {
-        font-size:200px;
+        font-size:170px;
     }
     #content {
         margin-top:200px;
@@ -33,7 +33,7 @@ body {
         background-image: url(/assets/img/bg_sp.jpg);
     }
     .glyphicon {
-        font-size:50px;
+        font-size:45px;
     }
     #content {
         margin-top:50px;
